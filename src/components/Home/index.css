@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-desktop-img {
+  width: 50%;
+  margin: 10px;
+}
+.home-heading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-weight: 700;
+}
+.home-description {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.shop-now-button {
+  color: #ffffff;
+  font-family: 'roboto';
+  background-color: #0b69ff;
+  border-width: 0px;
+  padding: 4px;
+  align-self: flex-start;
+}
